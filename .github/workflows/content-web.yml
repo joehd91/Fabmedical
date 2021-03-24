@@ -14,9 +14,9 @@ on:
 # 작업 정의 전체에서 사용할 수 있도록 환경 변수 정의
 env:
   imageRepository: 'content-web'
-  resourceGroupName: 'fabmedical-[SHORT_SUFFIX]'
-  containerRegistryName: 'fabmedical[SHORT_SUFFIX]'
-  containerRegistry: 'fabmedical[SHORT_SUFFIX].azurecr.io'
+  resourceGroupName: 'kube_rg'
+  containerRegistryName: 'fabmedicalJHD'
+  containerRegistry: 'fabmedicalJHD.azurecr.io'
   dockerfilePath: './content-web'
   tag: '${{ github.run_id  }}'
 
